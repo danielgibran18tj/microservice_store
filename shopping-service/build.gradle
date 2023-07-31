@@ -38,9 +38,8 @@ dependencies {
 	implementation 'org.hibernate.validator:hibernate-validator:7.0.2.Final'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.0.0'
 
-	//implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
-	//implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard'
-
+	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 }
 
 dependencyManagement {

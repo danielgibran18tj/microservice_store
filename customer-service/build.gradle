@@ -35,13 +35,14 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	//implementation 'org.springframework.boot:spring-boot-starter-validation'
-	runtimeOnly 'com.mysql:mysql-connector-j'
-	implementation 'org.hibernate.validator:hibernate-validator:7.0.2.Final'
-
-	//implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	//implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	//implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	implementation 'org.hibernate.validator:hibernate-validator:7.0.2.Final'
+
+	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 }
 
 dependencyManagement {
